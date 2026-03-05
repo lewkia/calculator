@@ -19,8 +19,8 @@ python -m http.server # serves on http://localhost:8000
 
 ```bash
 docker build -t calculator .
-docker run -p 8080:8080 calculator
-# open http://localhost:8080
+docker run -p 80:80 calculator
+# open http://localhost
 ```
 
 ## Architecture
